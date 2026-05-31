@@ -4,7 +4,7 @@ services:
   - type: web
     name: manisa-hansda-portfolio
     runtime: static
-    buildCommand: echo "Static portfolio — no build step"
+    buildCommand: "true"
     staticPublishPath: .
     pullRequestPreviewsEnabled: true
     headers:
