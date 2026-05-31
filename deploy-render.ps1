@@ -26,3 +26,7 @@ Write-Host "Repo: $repoUrl" -ForegroundColor Green
 Write-Host "Next: open Render Blueprint deploy (log in to Render if prompted):" -ForegroundColor Cyan
 Write-Host $renderBlueprint
 Start-Process $renderBlueprint
+
+Write-Host ""
+Write-Host "After the site exists, redeploy updates from:" -ForegroundColor Yellow
+Write-Host "  https://dashboard.render.com -> your static site -> Manual Deploy -> Deploy latest commit"
