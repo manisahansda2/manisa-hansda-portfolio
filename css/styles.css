@@ -13,6 +13,8 @@
   --color-accent-soft: #e8f2ee;
   --color-warm: #c4783a;
   --color-warm-soft: #f5ebe0;
+  --color-sbi-blue: #22409a;
+  --color-sbi-blue-dark: #1a3278;
   --color-border: #e2dcd4;
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
@@ -751,7 +753,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 2.5rem;
-  background: linear-gradient(135deg, var(--color-accent) 0%, #134a3c 100%);
+  background: linear-gradient(135deg, var(--color-sbi-blue) 0%, var(--color-sbi-blue-dark) 100%);
   color: #fff;
   border-radius: var(--radius-lg);
   padding: clamp(2rem, 5vw, 3.5rem);
