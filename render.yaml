@@ -1,0 +1,13 @@
+# Render Blueprint — free static site
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: manisa-hansda-portfolio
+    runtime: static
+    buildCommand: echo "Static portfolio — no build step"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=0, must-revalidate
